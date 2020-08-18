@@ -1,0 +1,93 @@
+@import "../../../sass/utils/abstract";
+
+.vim-wrapper {
+  width: 150px;
+  margin: 8px 16px;
+}
+
+.vim-block {
+  position: relative;
+  height: 150px;
+  border: 3px solid $green;
+  border-radius: 32px;
+  opacity: 1;
+  box-sizing: border-box;
+  padding: 15px 24px;
+  .vim-content {
+    height: 100%;
+    position: relative;
+  }
+}
+
+// vim avatar
+.vim-avatar {
+  min-height: 90px;
+  img {
+    width: 90px;
+  }
+}
+
+// vim items
+.vim-items {
+  position: absolute;
+  right: -12px;
+  top: -2px;
+  .vim-item {
+    width: 25px;
+    height: 25px;
+    background: $grey-light;
+    border-radius: 7px;
+    opacity: 1;
+    margin-bottom: 5px;
+  }
+}
+
+// vim progress
+.vim-status {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  bottom: 0px;
+  .vim-label {
+    position: absolute;
+    left: -32px;
+    bottom: -16px;
+    background: $green;
+    border-radius: 7px;
+    opacity: 1;
+    width: 37px;
+    height: 37px;
+    text-align: center;
+    font-size: 29px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    color: $white;
+  }
+  .vim-speciality {
+    position: absolute;
+    right: -18px;
+    bottom: -6px;
+    background: #eb2424;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+  }
+}
+
+// vim info ---> name + id
+.vim-info {
+  text-align: center;
+  .vim-name {
+    text-align: center;
+    font: Bold 18px/16px Nunito;
+    letter-spacing: 0px;
+    color: $grey;
+  }
+  .vmi-id {
+    text-align: center;
+    font: SemiBold 12px/16px Nunito;
+    letter-spacing: 0px;
+    color: $grey;
+  }
+}

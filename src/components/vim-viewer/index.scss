@@ -1,0 +1,15 @@
+.vim-viewer {
+  margin-top: 20px;
+}
+.vim-viewer-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px -20px;
+  min-height: 380px;
+}
+
+.pagination {
+  max-width: 100%;
+  justify-content: center;
+  margin-top: 10px;
+}
